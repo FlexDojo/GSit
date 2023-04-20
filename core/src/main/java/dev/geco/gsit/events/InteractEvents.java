@@ -19,7 +19,7 @@ public class InteractEvents implements Listener {
 
     public InteractEvents(GSitMain GPluginMain) { GPM = GPluginMain; }
 
-    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    @EventHandler(priority = EventPriority.HIGHEST)
     public void PIntE(PlayerInteractEvent Event) {
 
         Block clickedBlock = Event.getClickedBlock();
